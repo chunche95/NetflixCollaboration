@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="125cm" height="43cm" viewBox="-716 -339 2500 845" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="300.481" y="19.2867" width="749.2" height="50.8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="300.481" y="19.2867" width="749.2" height="50.8"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:oblique;font-weight:700" x="675.081" y="38.2867">Contenido</text>
+    <text font-size="8.32" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:oblique;font-weight:normal" x="675.081" y="51.0867">(Contenido promocionado en la aplicacion de</text>
+    <text font-size="8.32" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:oblique;font-weight:normal" x="675.081" y="61.4867">Netflix - Clase Abstracta)</text>
+    <rect style="fill: #ffffff" x="300.481" y="70.0867" width="749.2" height="130.4"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="300.481" y="70.0867" width="749.2" height="130.4"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="303.481" y="84.0867">#titulo: String</text>
+    <text font-size="8.32" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:oblique;font-weight:normal" x="303.481" y="95.8867">(Es un ID único de referencia en Netflix)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="303.481" y="115.687">#anioEstreno: Int</text>
+    <text font-size="8.32" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:oblique;font-weight:normal" x="303.481" y="127.487">(Año de publicación del contenido)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="303.481" y="147.287">#duracion: Int</text>
+    <text font-size="8.32" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:oblique;font-weight:normal" x="303.481" y="159.087">(Será siempre un número entero positivo)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="303.481" y="178.887">#trending: Boolean</text>
+    <text font-size="8.32" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:oblique;font-weight:normal" x="303.481" y="190.687">(¿El contenido es tendencia?)</text>
+    <rect style="fill: #ffffff" x="300.481" y="200.487" width="749.2" height="195.2"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="300.481" y="200.487" width="749.2" height="195.2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="303.481" y="214.487">+Contenido(in Titulo:String,in AnioEstreno:Int,in Duracion:Int,in Trending:Boolean): Contenido</text>
+    <text font-size="8.32" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:oblique;font-weight:normal" x="303.481" y="226.287">(Constructor)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="303.481" y="246.087">+PromocionarC(in Titulo:String,in RSociales:Boolean,in CSol:Boolean,in Trending:Boolean): double</text>
+    <text font-size="8.32" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:oblique;font-weight:normal" x="303.481" y="257.887">(Promocion del contenido en Netflix)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="303.481" y="277.687">+getTitulo(): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="303.481" y="293.687">+getAnioEstreno(): Int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="303.481" y="309.687">+getDuracion(): Int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="303.481" y="325.687">+isTrending(): boolean</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="303.481" y="341.687">+setTitulo(titulo:String): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="303.481" y="357.687">+setAnioEstreno(estreno:Int): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="303.481" y="373.687">+setDuracion(duracion:Int): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="303.481" y="389.687">+setTrending(tendencia:boolean): void</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1118.54" y="-93.0935" width="664.5" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1118.54" y="-93.0935" width="664.5" height="38"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1450.79" y="-74.0935">Peliculas</text>
+    <text font-size="8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:oblique;font-weight:normal" x="1450.79" y="-61.5935">(Contenido: Peliculas - Clase hija)</text>
+    <rect style="fill: #ffffff" x="1118.54" y="-55.0935" width="664.5" height="66"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1118.54" y="-55.0935" width="664.5" height="66"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1121.54" y="-41.0935">-productora: String</text>
+    <text font-size="8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:oblique;font-weight:normal" x="1121.54" y="-29.5935">(Productora de la pelicula)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1121.54" y="-10.0935">-paisOrigen: String</text>
+    <text font-size="8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:oblique;font-weight:normal" x="1121.54" y="1.40653">(País de rodaje de la película)</text>
+    <rect style="fill: #ffffff" x="1118.54" y="10.9065" width="664.5" height="115"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1118.54" y="10.9065" width="664.5" height="115"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1121.54" y="24.9065">+Peliculas(in titulo:String,in fEstreno:int,in duracion:Int,in descripcion:String,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1121.54" y="40.9065">           in tendencia:boolean,in paisOrigen:String,in productora:String): Peliculas</text>
+    <text font-size="8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:oblique;font-weight:normal" x="1121.54" y="52.4065">(Constructor)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1121.54" y="71.9065">+getPaisOrigen(): String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1121.54" y="87.9065">+getProductora(): String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1121.54" y="103.907">+setPaisOrigen(in newPais:String): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1121.54" y="119.907">+setProductora(in newProductora:String): void</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1118.9" y="254.104" width="618.3" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1118.9" y="254.104" width="618.3" height="38"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1428.05" y="273.104">Series</text>
+    <text font-size="8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:oblique;font-weight:normal" x="1428.05" y="285.604">(Contenido: Series - Clase hija)</text>
+    <rect style="fill: #ffffff" x="1118.9" y="292.104" width="618.3" height="66"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1118.9" y="292.104" width="618.3" height="66"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1121.9" y="306.104">-nTemporadas: Int</text>
+    <text font-size="8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:oblique;font-weight:normal" x="1121.9" y="317.604">(Núm. temporadas de la serie)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1121.9" y="337.104">-nCapitulos: Int</text>
+    <text font-size="8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:oblique;font-weight:normal" x="1121.9" y="348.604">(Num. de capitulos por temporada de una serie)</text>
+    <rect style="fill: #ffffff" x="1118.9" y="358.104" width="618.3" height="147"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1118.9" y="358.104" width="618.3" height="147"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1121.9" y="372.104">+Series(in titulo:String,in fEstreno:Int,in duracion:Int,in descripcion:String,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1121.9" y="388.104">        in trending:boolean,in nTemporadas:Int,in nCapitulos:Int): Series</text>
+    <text font-size="8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:oblique;font-weight:normal" x="1121.9" y="399.604">(Constructor)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1121.9" y="419.104">+getTemporadas(): Int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1121.9" y="435.104">+getCapitulos(): Int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1121.9" y="451.104">+setCapitulos(in newCapitulos:int): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1121.9" y="467.104">+setTemporadas(in newTemporadas:int): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1121.9" y="483.104">+calcularPromo(): double</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1121.9" y="499.104">+toString(): String</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1068.92,207.487 1092.11,207.487 1092.11,16.4065 1117.54,16.4065 "/>
+    <polygon style="fill: #ffffff" points="1068.92,199.487 1052.92,207.487 1068.92,215.487 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1068.92,199.487 1052.92,207.487 1068.92,215.487 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1068.92,207.487 1092.29,207.487 1092.29,379.604 1117.89,379.604 "/>
+    <polygon style="fill: #ffffff" points="1068.92,199.487 1052.92,207.487 1068.92,215.487 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1068.92,199.487 1052.92,207.487 1068.92,215.487 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="310.757" y="-321.813" width="533.6" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="310.757" y="-321.813" width="533.6" height="38"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="577.557" y="-302.813">Netflix</text>
+    <text font-size="8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:oblique;font-weight:normal" x="577.557" y="-290.313">(Consultas del sistema)</text>
+    <rect style="fill: #ffffff" x="310.757" y="-283.813" width="533.6" height="35"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="310.757" y="-283.813" width="533.6" height="35"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="313.757" y="-269.813">#Contenido: Array</text>
+    <text font-size="8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:oblique;font-weight:normal" x="313.757" y="-258.313">(Array con el contenido del fichero 'Contenido.csv')</text>
+    <rect style="fill: #ffffff" x="310.757" y="-248.813" width="533.6" height="221"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="310.757" y="-248.813" width="533.6" height="221"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="313.757" y="-234.813">+Netflix(in contenido:Array): Netflix</text>
+    <text font-size="8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:oblique;font-weight:normal" x="313.757" y="-223.313">(Constructor)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="313.757" y="-203.813">+MostrarContenido(in contenido:Array): String</text>
+    <text font-size="8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:oblique;font-weight:normal" x="313.757" y="-192.313">(Metodo)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="313.757" y="-172.813">+MostrarPromocion(in contenido:Array): double</text>
+    <text font-size="8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:oblique;font-weight:normal" x="313.757" y="-161.313">(Metodo)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="313.757" y="-141.813">+CrearPromocion(in contenido:Array): double</text>
+    <text font-size="8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:oblique;font-weight:normal" x="313.757" y="-130.313">(Metodo)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="313.757" y="-110.813">+CalcularCostePromocion(in contenido:Array): double</text>
+    <text font-size="8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:oblique;font-weight:normal" x="313.757" y="-99.3129">(Metodo)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="313.757" y="-79.8129">+CalcularSubvencion(in contenido:Array,in tendencia:boolean): double</text>
+    <text font-size="8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:oblique;font-weight:normal" x="313.757" y="-68.3129">(Metodo)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="313.757" y="-48.8129">+AddSolicitado(in titulo:String): Folder</text>
+    <text font-size="8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:oblique;font-weight:normal" x="313.757" y="-37.3129">(Metodo)</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="675.081,-6.89065 675.081,-11.2615 577.557,-11.2615 577.557,-26.8039 "/>
+    <polygon style="fill: #ffffff" points="675.081,18.2809 670.281,4.28092 675.081,-9.71908 679.881,4.28092 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="675.081,18.2809 670.281,4.28092 675.081,-9.71908 679.881,4.28092 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="686.081" y="14.2809"> *</text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="581.557" y="-14.8039"> 1</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-714.694" y="-337.234" width="810.8" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-714.694" y="-337.234" width="810.8" height="38"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="-309.294" y="-318.234">Promociones</text>
+    <text font-size="8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:oblique;font-weight:normal" x="-309.294" y="-305.734">(Promocionar el contenido de Netflix)</text>
+    <rect style="fill: #ffffff" x="-714.694" y="-299.234" width="810.8" height="128"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-714.694" y="-299.234" width="810.8" height="128"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-711.694" y="-285.234">-rSociales: boolean</text>
+    <text font-size="8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:oblique;font-weight:normal" x="-711.694" y="-273.734">(Promoción en redes sociales)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-711.694" y="-254.234">-cSol: boolean</text>
+    <text font-size="8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:oblique;font-weight:normal" x="-711.694" y="-242.734">(Promocion en un Cartel en Sol, Madrid)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-711.694" y="-223.234">-trending: boolean</text>
+    <text font-size="8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:oblique;font-weight:normal" x="-711.694" y="-211.734">(¿Es tendencia el contenido?)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-711.694" y="-192.234">-costePromo: double</text>
+    <text font-size="8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:oblique;font-weight:normal" x="-711.694" y="-180.734">(Coste de hacer una o varias promociones)</text>
+    <rect style="fill: #ffffff" x="-714.694" y="-171.234" width="810.8" height="163"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-714.694" y="-171.234" width="810.8" height="163"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-711.694" y="-157.234">+Promociones(in rSociales:boolean,in cSol:boolean,in trending:boolean,in costePromo:double): Promociones</text>
+    <text font-size="8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:oblique;font-weight:normal" x="-711.694" y="-145.734">(Constructor)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-711.694" y="-126.234">+getRSociales(): boolean</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-711.694" y="-110.234">+getCSol(): boolean</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-711.694" y="-94.2339">+isTrending(): boolean</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-711.694" y="-78.2339">+getCostePromo(): double</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-711.694" y="-62.2339">+setRSociales(in rSociales :boolean): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-711.694" y="-46.2339">+setCSol(in cSol:boolean): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-711.694" y="-30.2339">+setTendencia(in tendencia:boolean): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-711.694" y="-14.2339">+setCostePromo(in costePromo:double): void</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="299.475,207.487 202.294,207.487 202.294,-172.734 103.817,-172.734 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="116.465,-177.734 100.465,-172.734 116.465,-167.734 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-576.696" y="14.4059" width="672.2" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-576.696" y="14.4059" width="672.2" height="38"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="-240.596" y="33.4059">Subvenciones</text>
+    <text font-size="8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:oblique;font-weight:normal" x="-240.596" y="45.9059">(Subvenciones del Ayuntamiento por el contenido)</text>
+    <rect style="fill: #ffffff" x="-576.696" y="52.4059" width="672.2" height="97"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-576.696" y="52.4059" width="672.2" height="97"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-573.696" y="66.4059">-nombre: String</text>
+    <text font-size="8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:oblique;font-weight:normal" x="-573.696" y="77.9059">(Nombre del contacto del Ayto)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-573.696" y="97.4059">-telefono: int</text>
+    <text font-size="8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:oblique;font-weight:normal" x="-573.696" y="108.906">(Teléfono del contacto)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-573.696" y="128.406">-cantSubvencion: double</text>
+    <text font-size="8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:oblique;font-weight:normal" x="-573.696" y="139.906">(Cantidad emitida por el Ayto a Netflix)</text>
+    <rect style="fill: #ffffff" x="-576.696" y="149.406" width="672.2" height="131"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-576.696" y="149.406" width="672.2" height="131"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-573.696" y="163.406">+Subvenciones(in nombre:String,in telefono:int,in cantSubvencion:double): Subvenciones</text>
+    <text font-size="8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:oblique;font-weight:normal" x="-573.696" y="174.906">(Constructor)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-573.696" y="194.406">+getNombre(): String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-573.696" y="210.406">+getTelefono(): int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-573.696" y="226.406">+cantSubvencion(): double</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-573.696" y="242.406">+setNombre(in nombre:String): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-573.696" y="258.406">+setTelefono(in telefono:int): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-573.696" y="274.406">+setCantSubvencion(in cantSubvencion:double): void</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="299.475,207.487 201.992,207.487 201.992,147.406 103.214,147.406 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="115.862,142.406 99.8616,147.406 115.862,152.406 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-415.187" y="289.125" width="510.5" height="48"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-415.187" y="289.125" width="510.5" height="48"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="-159.937" y="308.125">Solicitudes</text>
+    <text font-size="8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:oblique;font-weight:normal" x="-159.937" y="320.625">(Solicitudes de los usuarios para nuevo contenido</text>
+    <text font-size="8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:oblique;font-weight:normal" x="-159.937" y="330.625">para Netflix)</text>
+    <rect style="fill: #ffffff" x="-415.187" y="337.125" width="510.5" height="66"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-415.187" y="337.125" width="510.5" height="66"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-412.187" y="351.125">-titulo: String</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="-412.187" y1="356.725" x2="-296.687" y2="356.725"/>
+    <text font-size="8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:oblique;font-weight:normal" x="-412.187" y="362.625">(Título solicitado)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-412.187" y="382.125">+contador: int</text>
+    <text font-size="8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:oblique;font-weight:normal" x="-412.187" y="393.625">(Pto de solicitud -&gt; +1)</text>
+    <rect style="fill: #ffffff" x="-415.187" y="403.125" width="510.5" height="99"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-415.187" y="403.125" width="510.5" height="99"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-412.187" y="417.125">+Solicitudes(inout titulo:String,inout contador:int): Solicitudes</text>
+    <text font-size="8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:oblique;font-weight:normal" x="-412.187" y="428.625">(Constructor)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-412.187" y="448.125">+getTitulo(): String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-412.187" y="464.125">+getContador(): int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-412.187" y="480.125">+setTitulo(in titulo:String): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-412.187" y="496.125">+setContador(in contador:int): void</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="299.475,207.487 201.898,207.487 201.898,395.625 103.026,395.625 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="115.673,390.625 99.6733,395.625 115.673,400.625 "/>
+  </g>
+</svg>
